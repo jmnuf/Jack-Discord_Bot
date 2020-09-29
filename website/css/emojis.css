@@ -1,0 +1,11 @@
+
+.emoji {
+	width: 128px;
+	height: 128px;
+	border: 2px dotted white;
+	border-radius: 12px;
+}
+
+.emoji:hover {
+	border: 2px dotted gold;
+}

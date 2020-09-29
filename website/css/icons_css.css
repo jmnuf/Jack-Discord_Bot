@@ -1,0 +1,45 @@
+
+:root {
+	--serverIconW: calc(64 * 1.5);
+	--serverIconH: calc(64 * 1.5);
+}
+
+.servers-container {
+	width: 100%;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+}
+
+.server-icon-container {
+	background: lightgrey;
+	margin-bottom: 1.5rem;
+	width:  calc(var(--serverIconW) * 1px);
+	height: calc(var(--serverIconH) * 1px);
+	text-decoration: none;
+	color: var(--lightgreen);
+	text-align: center;
+	display: block;
+	border: 0.25rem dashed grey;
+	transition: all 100ms;
+}
+
+.server-icon-container:hover {
+	width:  calc(var(--serverIconW) * 2px);
+	height: calc(var(--serverIconH) * 2px);
+	font-size: 2rem;
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+
+.server-icon {
+	background: grey;
+	border-radius: 45%;
+	border: 0.5rem solid var(--gray-dark);
+	margin: 0.3rem 0;
+}
+
+.server-icon-container:hover .server-icon {
+	margin: 0;
+}

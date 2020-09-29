@@ -1,0 +1,90 @@
+
+:root {
+	--lightpink: #ffccf2;
+	--lightgreen: #d9ff66;
+	--yellow: #ffff00;
+}
+
+body{
+	background: #00001a;
+	color: var(--lightgreen);
+}
+
+footer {
+	width: 100%;
+	margin-top: 1.25rem;
+	padding: 2rem;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+}
+
+.jcontainer {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.jumbotron {
+	background: rgba(51, 51, 51, 0.5);
+	color: var(--lightgreen);
+}
+
+.flexbox-center {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 0;
+}
+
+.flexbox-justified {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.return-btn {
+	position: absolute;
+	top: 0.5rem;
+	left: 5rem;
+}
+
+.scrollable {
+	overflow: scroll;
+}
+
+.scroll-width {
+	overflow-y: scroll !important;
+	overflow-x: hidden !important;
+	height: 20rem;
+}
+
+.dark-bg {
+	background: rgb(10, 10, 10) !important;
+}
+.dark-bg-a {
+	background: rgba(10, 10, 10, 0.5) !important;
+}
+.dark-bg-a.hover-light:hover {
+	background: rgba(200, 200, 200, 0.5) !important;
+	text-shadow: 2px 2px 2px black;
+	cursor: pointer;
+}
+
+.rounded-block {
+	padding: 5px;
+	display: block;
+	width: 100%;
+	border-radius: 15px;
+	min-height: 5rem;
+	margin: 5px;
+}
+
+@media screen and (min-width: 800px) {
+	.return-btn {
+		left: 8.5rem;
+	}
+}

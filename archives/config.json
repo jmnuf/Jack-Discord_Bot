@@ -1,11 +1,8 @@
 {
-    "CreatorID": "297487365843320844",
-    "BotID": "613710711104995336",
-    "token" : "NjEzNzEwNzExMTA0OTk1MzM2.XV04tA.6h5qP3WMl6-sdxpEi12BgqS8p60",
+    "CreatorID": "My ID",
+    "BotID": "Bot-ID",
+    "token" : "Bot-Token",
     "prefix": ["jack", "j."],
     "suffix": ", jack",
-    "api-keys": {
-    	"lol": "RGAPI-d3746b88-f35d-481c-830d-adcd45ebe912"
-    },
-    "presenceUpdaterChannel": "754785584236462125"
+    "presenceUpdaterChannel": "Channel-ID"
 }
